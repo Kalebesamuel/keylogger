@@ -44,8 +44,23 @@ Follow these steps to get the project up and running on your local machine.
 #### 1. Clone the Repository
 
 ```bash
-  git clone https://github.com/ramprasathmk/keylogger.git
+  git clone https://github.com/Kalebesamuel/keylogger.git
   cd keylogger
+```
+
+#### 2. Install/Upgrade python
+
+Run this commands to install or upgrade python and install tkinter:
+
+```bash
+  brew install python
+  brew install python-tk@3.13
+```
+
+Or run this commands install using arch -arm64 (for M1 Mac) 
+
+```bash
+ arch -arm64 brew install python-tk@3.13
 ```
 
 #### 2. Set Up Virtual Environment
@@ -53,7 +68,7 @@ Follow these steps to get the project up and running on your local machine.
 Run this command to create and activate a virtual environment (recommended):
 
 ```bash
-  python -m venv env
+  python3 -m venv env
 ```
 
 #### 3. Activate the Virtual Environment
@@ -86,7 +101,7 @@ Once you've set up the environment, you're ready to run the keylogger.
 - To start logging keystrokes, run:
 
 ```bash
-  python keylogger.py
+  python3 keylogger.py
 ```
 
 #### 2. Check Logs

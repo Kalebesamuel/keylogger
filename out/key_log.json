@@ -1,1 +1,3371 @@
-[{"Pressed": "'t'"}, {"Held": "'t'"}, {"Released": "'t'"}, {"Pressed": "'h'"}, {"Held": "'h'"}, {"Released": "'h'"}, {"Pressed": "'i'"}, {"Held": "'i'"}, {"Released": "'i'"}, {"Pressed": "'s'"}, {"Held": "'s'"}, {"Released": "'s'"}, {"Pressed": "Key.space"}, {"Held": "Key.space"}, {"Released": "Key.space"}, {"Pressed": "'i'"}, {"Held": "'i'"}, {"Released": "'i'"}, {"Pressed": "'s'"}, {"Held": "'s'"}, {"Released": "'s'"}, {"Pressed": "Key.space"}, {"Held": "Key.space"}, {"Released": "Key.space"}, {"Pressed": "'a'"}, {"Held": "'a'"}, {"Released": "'a'"}, {"Pressed": "Key.space"}, {"Held": "Key.space"}, {"Released": "Key.space"}, {"Pressed": "'t'"}, {"Held": "'t'"}, {"Released": "'t'"}, {"Pressed": "'e'"}, {"Held": "'e'"}, {"Released": "'e'"}, {"Pressed": "'s'"}, {"Held": "'s'"}, {"Released": "'s'"}, {"Pressed": "Key.backspace"}, {"Held": "Key.backspace"}, {"Released": "Key.backspace"}, {"Pressed": "'x'"}, {"Held": "'x'"}, {"Released": "'x'"}, {"Pressed": "'t'"}, {"Held": "'t'"}, {"Released": "'t'"}, {"Pressed": "Key.space"}, {"Held": "Key.space"}, {"Released": "Key.space"}, {"Pressed": "Key.backspace"}, {"Held": "Key.backspace"}, {"Released": "Key.backspace"}, {"Pressed": "','"}, {"Held": "','"}, {"Released": "','"}, {"Pressed": "Key.space"}, {"Held": "Key.space"}, {"Released": "Key.space"}, {"Pressed": "'i'"}, {"Held": "'i'"}, {"Released": "'i'"}, {"Pressed": "\"'\""}, {"Held": "\"'\""}, {"Released": "\"'\""}, {"Pressed": "'m'"}, {"Held": "'m'"}, {"Released": "'m'"}, {"Pressed": "Key.space"}, {"Held": "Key.space"}, {"Released": "Key.space"}, {"Pressed": "'w'"}, {"Held": "'w'"}, {"Released": "'w'"}, {"Pressed": "'r'"}, {"Held": "'r'"}, {"Released": "'r'"}, {"Pressed": "'i'"}, {"Held": "'i'"}, {"Released": "'i'"}, {"Pressed": "'t'"}, {"Held": "'t'"}, {"Released": "'t'"}, {"Pressed": "'i'"}, {"Held": "'i'"}, {"Released": "'i'"}, {"Pressed": "'n'"}, {"Held": "'n'"}, {"Released": "'n'"}, {"Pressed": "'g'"}, {"Held": "'g'"}, {"Released": "'g'"}]
+[
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "s"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "s"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "s"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "[SHIFT]"
+  },
+  {
+    "Released": "H"
+  },
+  {
+    "Released": "[SHIFT]"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "\\"
+  },
+  {
+    "Released": "\\"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "[SHIFT]"
+  },
+  {
+    "Released": "[SHIFT]"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": "u"
+  },
+  {
+    "Released": "u"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": ","
+  },
+  {
+    "Released": ","
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "v"
+  },
+  {
+    "Released": "v"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Pressed": "u"
+  },
+  {
+    "Released": "u"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "s"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "u"
+  },
+  {
+    "Released": "u"
+  },
+  {
+    "Pressed": "b"
+  },
+  {
+    "Released": "b"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "r"
+  },
+  {
+    "Released": "r"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": "h"
+  },
+  {
+    "Released": "h"
+  },
+  {
+    "Pressed": "u"
+  },
+  {
+    "Released": "u"
+  },
+  {
+    "Pressed": "b"
+  },
+  {
+    "Released": "b"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": "h"
+  },
+  {
+    "Released": "h"
+  },
+  {
+    "Pressed": "u"
+  },
+  {
+    "Released": "u"
+  },
+  {
+    "Pressed": "b"
+  },
+  {
+    "Released": "b"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "3"
+  },
+  {
+    "Released": "3"
+  },
+  {
+    "Pressed": "3"
+  },
+  {
+    "Released": "3"
+  },
+  {
+    "Pressed": "7"
+  },
+  {
+    "Released": "7"
+  },
+  {
+    "Pressed": "5"
+  },
+  {
+    "Released": "5"
+  },
+  {
+    "Pressed": "5"
+  },
+  {
+    "Released": "5"
+  },
+  {
+    "Pressed": "2"
+  },
+  {
+    "Released": "2"
+  },
+  {
+    "Pressed": "k"
+  },
+  {
+    "Released": "k"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "y"
+  },
+  {
+    "Released": "y"
+  },
+  {
+    "Pressed": "l"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "r"
+  },
+  {
+    "Released": "r"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "c"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Released": "d"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "."
+  },
+  {
+    "Released": "."
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "v"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "[SHIFT]"
+  },
+  {
+    "Released": "H"
+  },
+  {
+    "Released": "[SHIFT]"
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Pressed": "w"
+  },
+  {
+    "Released": "w"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Pressed": "v"
+  },
+  {
+    "Released": "v"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "r"
+  },
+  {
+    "Released": "r"
+  },
+  {
+    "Pressed": "w"
+  },
+  {
+    "Released": "w"
+  },
+  {
+    "Pressed": "r"
+  },
+  {
+    "Released": "r"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "r"
+  },
+  {
+    "Released": "r"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Pressed": "r"
+  },
+  {
+    "Released": "r"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": "h"
+  },
+  {
+    "Released": "h"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "Key.left"
+  },
+  {
+    "Released": "Key.left"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "v"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "Key.right"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Pressed": "Key.right"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "v"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "r"
+  },
+  {
+    "Released": "r"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "c"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Pressed": "f"
+  },
+  {
+    "Released": "f"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": "Key.right"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "Key.up"
+  },
+  {
+    "Released": "Key.up"
+  },
+  {
+    "Pressed": "Key.up"
+  },
+  {
+    "Released": "Key.up"
+  },
+  {
+    "Pressed": "Key.up"
+  },
+  {
+    "Released": "Key.up"
+  },
+  {
+    "Pressed": "Key.down"
+  },
+  {
+    "Released": "Key.down"
+  },
+  {
+    "Pressed": "Key.down"
+  },
+  {
+    "Released": "Key.down"
+  },
+  {
+    "Pressed": "Key.up"
+  },
+  {
+    "Released": "Key.up"
+  },
+  {
+    "Pressed": "Key.up"
+  },
+  {
+    "Released": "Key.up"
+  },
+  {
+    "Pressed": "1"
+  },
+  {
+    "Released": "1"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "Key.shift_r"
+  },
+  {
+    "Released": "Key.shift_r"
+  },
+  {
+    "Released": ";"
+  },
+  {
+    "Pressed": "w"
+  },
+  {
+    "Released": "w"
+  },
+  {
+    "Pressed": "q"
+  },
+  {
+    "Released": "q"
+  },
+  {
+    "Pressed": "Key.up"
+  },
+  {
+    "Released": "Key.up"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "Key.up"
+  },
+  {
+    "Released": "Key.up"
+  },
+  {
+    "Pressed": "[SHIFT]"
+  },
+  {
+    "Released": "[SHIFT]"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Pressed": "d"
+  },
+  {
+    "Released": "d"
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "s"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "l"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "a"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "a"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Pressed": "d"
+  },
+  {
+    "Released": "d"
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "u"
+  },
+  {
+    "Released": "u"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "r"
+  },
+  {
+    "Released": "r"
+  },
+  {
+    "Pressed": "a"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "a"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Pressed": "d"
+  },
+  {
+    "Released": "d"
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "a"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Pressed": "d"
+  },
+  {
+    "Released": "d"
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "a"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "l"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": "Key.shift_r"
+  },
+  {
+    "Released": "Key.shift_r"
+  },
+  {
+    "Released": "/"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Pressed": "q"
+  },
+  {
+    "Released": "q"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "v"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Pressed": "Key.right"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "Key.shift_r"
+  },
+  {
+    "Released": "\""
+  },
+  {
+    "Pressed": null
+  },
+  {
+    "Released": "\""
+  },
+  {
+    "Released": "Key.shift_r"
+  },
+  {
+    "Pressed": "Key.left"
+  },
+  {
+    "Released": "Key.left"
+  },
+  {
+    "Pressed": "[SHIFT]"
+  },
+  {
+    "Released": "[SHIFT]"
+  },
+  {
+    "Released": "k"
+  },
+  {
+    "Pressed": "a"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "b"
+  },
+  {
+    "Released": "b"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "s"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "a"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "u"
+  },
+  {
+    "Released": "u"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "l"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": "Key.right"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "Key.up"
+  },
+  {
+    "Released": "Key.up"
+  },
+  {
+    "Pressed": "Key.left"
+  },
+  {
+    "Released": "Key.left"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "l"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": "Key.right"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Pressed": "Key.right"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Pressed": "Key.left"
+  },
+  {
+    "Released": "Key.left"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "k"
+  },
+  {
+    "Released": "k"
+  },
+  {
+    "Pressed": "l"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "b"
+  },
+  {
+    "Released": "b"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "s"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "a"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "u"
+  },
+  {
+    "Released": "u"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "l"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": "l"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Pressed": "p"
+  },
+  {
+    "Released": "p"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "s"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "Key.shift_r"
+  },
+  {
+    "Released": "@"
+  },
+  {
+    "Released": "Key.shift_r"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "l"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": "."
+  },
+  {
+    "Released": "."
+  },
+  {
+    "Pressed": "c"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Pressed": "m"
+  },
+  {
+    "Released": "m"
+  },
+  {
+    "Pressed": "Key.right"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "c"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Pressed": "f"
+  },
+  {
+    "Released": "f"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "-"
+  },
+  {
+    "Released": "-"
+  },
+  {
+    "Pressed": "-"
+  },
+  {
+    "Released": "-"
+  },
+  {
+    "Pressed": "l"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "a"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "l"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "-"
+  },
+  {
+    "Released": "-"
+  },
+  {
+    "Pressed": "-"
+  },
+  {
+    "Released": "-"
+  },
+  {
+    "Pressed": "l"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "s"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "q"
+  },
+  {
+    "Released": "q"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "[SHIFT]"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "[SHIFT]"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "v"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Pressed": "3"
+  },
+  {
+    "Released": "3"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "v"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Pressed": "[SHIFT]"
+  },
+  {
+    "Released": "I"
+  },
+  {
+    "Released": "[SHIFT]"
+  },
+  {
+    "Pressed": "j"
+  },
+  {
+    "Released": "j"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": "a"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "l"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": "l"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "p"
+  },
+  {
+    "Released": "p"
+  },
+  {
+    "Pressed": "y"
+  },
+  {
+    "Released": "y"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": "h"
+  },
+  {
+    "Released": "h"
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Pressed": "/"
+  },
+  {
+    "Released": "/"
+  },
+  {
+    "Pressed": "[SHIFT]"
+  },
+  {
+    "Released": "U"
+  },
+  {
+    "Released": "[SHIFT]"
+  },
+  {
+    "Pressed": "p"
+  },
+  {
+    "Released": "p"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": "r"
+  },
+  {
+    "Released": "r"
+  },
+  {
+    "Pressed": "a"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "d"
+  },
+  {
+    "Released": "d"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "Key.right"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Pressed": "Key.right"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "[SHIFT]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "v"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "s"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "Key.shift_r"
+  },
+  {
+    "Released": "Key.left"
+  },
+  {
+    "Released": "Key.shift_r"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Pressed": "Key.right"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Pressed": "Key.left"
+  },
+  {
+    "Released": "Key.left"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Pressed": "\t"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "a"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Pressed": "d"
+  },
+  {
+    "Released": "d"
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "v"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Pressed": "Key.down"
+  },
+  {
+    "Released": "Key.down"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Pressed": "s"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": "a"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "l"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": "l"
+  },
+  {
+    "Released": "l"
+  },
+  {
+    "Pressed": "\t"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "[SHIFT]"
+  },
+  {
+    "Released": "O"
+  },
+  {
+    "Released": "[SHIFT]"
+  },
+  {
+    "Pressed": "r"
+  },
+  {
+    "Released": "r"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "v"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "c"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "v"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "Key.down"
+  },
+  {
+    "Released": "Key.down"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "Key.down"
+  },
+  {
+    "Released": "Key.down"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "Key.shift_r"
+  },
+  {
+    "Released": "#"
+  },
+  {
+    "Released": "Key.shift_r"
+  },
+  {
+    "Pressed": "Key.down"
+  },
+  {
+    "Released": "Key.down"
+  },
+  {
+    "Pressed": "Key.left"
+  },
+  {
+    "Released": "Key.left"
+  },
+  {
+    "Pressed": "Key.shift_r"
+  },
+  {
+    "Released": "Key.shift_r"
+  },
+  {
+    "Released": "3"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Pressed": "[SHIFT]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "[SHIFT]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "u"
+  },
+  {
+    "Released": "u"
+  },
+  {
+    "Pressed": "s"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": null
+  },
+  {
+    "Released": "`"
+  },
+  {
+    "Pressed": null
+  },
+  {
+    "Released": "`"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "Key.right"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "\t"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": null
+  },
+  {
+    "Released": "`"
+  },
+  {
+    "Pressed": null
+  },
+  {
+    "Released": "`"
+  },
+  {
+    "Pressed": null
+  },
+  {
+    "Released": "`"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "Key.down"
+  },
+  {
+    "Released": "Key.down"
+  },
+  {
+    "Pressed": "Key.right"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "Key.left"
+  },
+  {
+    "Released": "Key.left"
+  },
+  {
+    "Pressed": "Key.right"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Pressed": "Key.right"
+  },
+  {
+    "Released": "Key.right"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "r"
+  },
+  {
+    "Released": "r"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "3"
+  },
+  {
+    "Released": "3"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "s"
+  },
+  {
+    "Pressed": "[CMD]"
+  },
+  {
+    "Released": "[CMD]"
+  },
+  {
+    "Released": "\t"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "a"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "d"
+  },
+  {
+    "Released": "d"
+  },
+  {
+    "Pressed": "d"
+  },
+  {
+    "Released": "d"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "."
+  },
+  {
+    "Released": "."
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "t"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": "n"
+  },
+  {
+    "Released": "n"
+  },
+  {
+    "Pressed": "o"
+  },
+  {
+    "Released": "o"
+  },
+  {
+    "Released": "r"
+  },
+  {
+    "Pressed": "e"
+  },
+  {
+    "Released": "e"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "g"
+  },
+  {
+    "Released": "g"
+  },
+  {
+    "Pressed": "i"
+  },
+  {
+    "Released": "i"
+  },
+  {
+    "Released": "t"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": "a"
+  },
+  {
+    "Released": "a"
+  },
+  {
+    "Pressed": "d"
+  },
+  {
+    "Released": "d"
+  },
+  {
+    "Pressed": "d"
+  },
+  {
+    "Released": "d"
+  },
+  {
+    "Pressed": " "
+  },
+  {
+    "Released": " "
+  },
+  {
+    "Pressed": ","
+  },
+  {
+    "Released": ","
+  },
+  {
+    "Pressed": "[BACKSPACE]"
+  },
+  {
+    "Released": "[BACKSPACE]"
+  },
+  {
+    "Pressed": "."
+  },
+  {
+    "Released": "."
+  },
+  {
+    "Pressed": "\n"
+  },
+  {
+    "Released": "\n"
+  }
+]
