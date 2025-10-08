@@ -1,8 +1,8 @@
-# Keylogger
+# Logger
 
-![Keylogger](https://t3.ftcdn.net/jpg/10/20/25/22/360_F_1020252214_jlf1xkZ2ZH75vSWwAFINeuU6iT4sVUJ0.jpg)
+![Logger](https://t3.ftcdn.net/jpg/10/20/25/22/360_F_1020252214_jlf1xkZ2ZH75vSWwAFINeuU6iT4sVUJ0.jpg)
 
-**Keylogger** is a Python-based project designed to capture and log keystrokes. It demonstrates how key-logging can be used for various purposes, such as monitoring typing activity for research, troubleshooting keyboard issues, or learning how keyloggers work for cybersecurity education.
+**Logger** is a Python-based project designed to capture and log keystrokes. It demonstrates how key-logging can be used for various purposes, such as monitoring typing activity for research, troubleshooting keyboard issues, or learning how keyloggers work for cybersecurity education.
 
 ⚠️ **Note**: This project is for **educational purposes only**. Please use responsibly and only on systems you have permission to monitor.
 
@@ -21,7 +21,7 @@
 
 The project contains the following main files:
 
-- **`keylogger.py`** - The main script that initiates the keylogger.
+- **`logger.py`** - The main script that initiates the logger.
 - **`requirements.txt`** - Lists all the Python libraries needed for this project.
 
 ---
@@ -44,8 +44,8 @@ Follow these steps to get the project up and running on your local machine.
 #### 1. Clone the Repository
 
 ```bash
-  git clone https://github.com/Kalebesamuel/keylogger.git
-  cd keylogger
+  git clone https://github.com/Kalebesamuel/logger.git
+  cd logger
 ```
 
 #### 2. Install/Upgrade python
@@ -94,14 +94,14 @@ Install the required dependencies:
 
 ## 🔍 Usage
 
-Once you've set up the environment, you're ready to run the keylogger.
+Once you've set up the environment, you're ready to run the logger.
 
-#### 1. Run the Keylogger
+#### 1. Run the Logger
 
 - To start logging keystrokes, run:
 
 ```bash
-  python3 keylogger.py
+  python3 logger.py
 ```
 
 #### 2. Check Logs
@@ -114,7 +114,7 @@ Once you've set up the environment, you're ready to run the keylogger.
 
 ## ⚠️ Disclaimer
 
-- This keylogger is intended for educational and research purposes only. Unauthorized keylogging is illegal and unethical. Only run this on systems you have permission to monitor.
+- This logger is intended for educational and research purposes only. Unauthorized keylogging is illegal and unethical. Only run this on systems you have permission to monitor.
 
 ## 💡 Customization and Expansion
 - Logging Format: You can adjust how keystrokes are logged (timestamps, formatting, etc.) within the script.

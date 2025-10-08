@@ -14,11 +14,11 @@ if errorlevel 1 (
 )
 
 :: Clone the GitHub repository
-echo Cloning the Keylogger repository...
-git clone https://github.com/ramprasathmk/keylogger.git
+echo Cloning the Logger repository...
+git clone https://github.com/ramprasathmk/logger.git
 
 :: Navigate to the repository directory
-cd keylogger
+cd logger
 
 :: Create a virtual environment in the "env" folder
 echo Creating virtual environment...

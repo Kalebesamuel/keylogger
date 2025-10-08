@@ -1,22 +1,22 @@
-## Keylogger Process
+## Logger Process
 
-1. **keylogger.py**
+1. **logger.py**
 ![Img](./docs/program.png)
 
 ---
 
-2. **Keylogger Started**
+2. **Logger Started**
 
-![Keylogger Start](./docs/Keylogger-start.png)
-
----
-
-3. **Keylogger Running**
-
-![Keylogger Running](./docs/Keylogger-running.png)
+![Logger Start](./docs/Logger-start.png)
 
 ---
 
-4. **Keylogger Stopped**
+3. **Logger Running**
 
-![Keylogger Stop](./docs/Keylogger-stopped.png)
+![Logger Running](./docs/Logger-running.png)
+
+---
+
+4. **Logger Stopped**
+
+![Logger Stop](./docs/Logger-stopped.png)

